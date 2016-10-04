@@ -17,7 +17,8 @@ public class Boletin2_Ej5 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        float millas, metros = 1852, operacion;
+        float millas, operacion;
+        final int METROS = 1852;
         millas = Float.parseFloat(JOptionPane.showInputDialog("Numero de millas")) ;
         operacion = millas * metros;
         JOptionPane.showMessageDialog(null, operacion);
