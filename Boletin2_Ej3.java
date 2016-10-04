@@ -17,7 +17,7 @@ public class Boletin2_Ej3 {
     public static void main(String[] args) {
         float euros, cambioDolar,operacion;
         euros = Float.parseFloat(JOptionPane.showInputDialog("Cantidad de dinero")) ;
-        cambioDolar = Float.parseFloat(JOptionPane.showInputDialog("Valor del dolar"));
+        cambioDolar = 0.89;
         operacion = euros*cambioDolar;
         JOptionPane.showMessageDialog(null, operacion);
     }
