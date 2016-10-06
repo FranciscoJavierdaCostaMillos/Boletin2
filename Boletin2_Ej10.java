@@ -17,8 +17,8 @@ public class Boletin2_Ej10 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int dinero,resto,b100,b20,b5,monedas;
-        dinero = JOptionPane.showInputDialog("Introduce el dinero") ;
+        double dinero,resto,b100,b20,b5,monedas;
+        dinero = Integer.parseInt(JOptionPane.showInputDialog("Introduce el dinero")) ;
         b100 = dinero/100;
         resto = dinero%100;
         b20 = resto/20;
